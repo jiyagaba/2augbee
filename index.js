@@ -120,8 +120,12 @@ app.delete("/delete/:userID",(req,res) => {
 
   
 });
+//locsl host p25,dalima us local host par is number par server chalta hai
 //port number
+//local host 
+//request monitor 
 const port = 5000;
+//error callback function
 app.listen(port, (err) => {
     if (err) {
         console.log(err);
